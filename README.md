@@ -8,9 +8,12 @@ Support for Twitter and Facebook buttons. The square version also supports Reddi
 ## Demo
 There are two versions: traditional and square. This is what they look like:
 
+
 **Traditional ([Live demo](http://savjee.github.io/static-social-buttons/traditional/index.html)):**
+
 ![](http://savjee.github.io/static-social-buttons/screenshots/traditional.png)
 
 
 **Square ([Live demo](http://savjee.github.io/static-social-buttons/square/index.html)):**
+
 ![](http://savjee.github.io/static-social-buttons/screenshots/square.png)
