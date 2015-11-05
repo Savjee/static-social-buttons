@@ -1,0 +1,68 @@
+.socialbutton-wrapper {
+    height: 80px;
+    text-align:center;
+}
+
+.socialbutton-wrapper a{
+    text-decoration: none;
+}
+
+.share-button-container{
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px 0;
+    border-top: solid 1px #e4e4e4;
+    border-bottom: solid 1px #e4e4e4;
+}
+
+.socialbutton {
+    width: 80px;
+    height: 55px;
+    margin-bottom: 0;
+    display: inline-block;
+
+    transition: all 500ms;
+    -webkit-transition: all 500ms;
+
+}
+
+.socialbutton:hover {
+    height: 80px;
+    margin-bottom: 0;
+}
+
+.socialbutton .shares {
+    opacity: 0;
+    transition: opacity 500ms;
+    -webkit-transition: opacity 500ms;
+    color: #fff;
+    text-align: center;
+    margin-top: 7px;
+    font-family: Merriweather, serif;
+}
+
+.socialbutton:hover .shares {
+    opacity: 1;
+}
+
+.socialbutton p {
+    margin: 0;
+    padding: 0;
+}
+
+.socialbutton p.icon {
+    text-align: center;
+    padding-top: 13px;
+}
+
+.socialbutton.twitter {
+    background-color: #5BC2F0;
+}
+
+.socialbutton.reddit {
+    background-color: #333333;
+}
+
+.socialbutton.facebook {
+    background-color: #435D96;
+}
