@@ -11,7 +11,7 @@ var StaticShareButtons = {
             encodeURI(this.facebookButton.dataset.shareUrl) + '&callback=StaticShareButtons.processFacebook');
 
         this.injectScript('https://www.reddit.com/api/info.json?jsonp=StaticShareButtons.processReddit&url='
-            + encodeURI(this.facebookButton.dataset.shareUrl))
+            + encodeURI(this.redditButton.dataset.shareUrl))
     },
 
     injectScript: function (url) {
